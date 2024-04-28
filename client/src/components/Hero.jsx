@@ -9,10 +9,10 @@ import IMAGES from "@/images/Images";
 
 export default function Hero() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-white px-8 py-12 md:items-center md:justify-between lg:px-40">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-white px-8 py-12 md:items-center md:justify-between lg:px-40 lg:my-5">
       <div className="col-span-2 space-y-6">
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
-          Melvin Jones Gallano Repol
+          I'm Fayaz Ahmad
         </h1>
         <p className="text-gray-600 md:text-2xl md:leading-normal">
           I am a Freelance Software Engineer with expertise in full-stack web

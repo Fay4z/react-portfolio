@@ -7,7 +7,7 @@ import Projects from "../components/Projects";
 const Home = () => {
   return (
     <div className=" px-5">
-      <Hero className="-px-7" />
+      <Hero />
       <About />
       <Skills />
       <Projects />
