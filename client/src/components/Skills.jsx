@@ -5,39 +5,127 @@ const Skills = () => {
     <div>
       <section className="bg-white py-12 md:py-16 lg:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8">My Skills</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 pb-8">
+            My Skills
+          </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
             <div className="flex flex-col items-center justify-center">
-              <ComponentIcon className="w-12 h-12 mb-2 text-[#61DAFB]" />
-              <span className="text-gray-600 font-medium">React</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                height="40"
+                width="40"
+                alt="html5 logo"
+              />
+              <span className="text-gray-600 font-medium">HTML5</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <ViewIcon className="w-12 h-12 mb-2 text-[#4FC08D]" />
-              <span className="text-gray-600 font-medium">Vue.js</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                height="40"
+                width="40"
+                alt="css3 logo"
+              />
+              <span className="text-gray-600 font-medium">CSS3</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <AngryIcon className="w-12 h-12 mb-2 text-[#DD0031]" />
-              <span className="text-gray-600 font-medium">Angular</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                height="40"
+                width="40"
+                alt="javascript logo"
+              />
+              <span className="text-gray-600 font-medium">JS</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <NetworkIcon className="w-12 h-12 mb-2 text-[#339933]" />
-              <span className="text-gray-600 font-medium">Node.js</span>
+              <img
+                src="https://cdn.simpleicons.org/tailwindcss/06B6D4"
+                height="40"
+                width="40"
+                alt="tailwindcss logo"
+              />
+              <span className="text-gray-600 font-medium">Tailwind CSS</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <PiIcon className="w-12 h-12 mb-2 text-[#3776AB]" />
-              <span className="text-gray-600 font-medium">Python</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                height="40"
+                width="40"
+                alt="react logo"
+              />
+              <span className="text-gray-600 font-medium">React JS</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <BeanIcon className="w-12 h-12 mb-2 text-[#007396]" />
-              <span className="text-gray-600 font-medium">Java</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                height="40"
+                width="40"
+                alt="nodejs logo"
+              />
+              <span className="text-gray-600 font-medium">Node JS</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <ShellIcon className="w-12 h-12 mb-2 text-[#239120]" />
-              <span className="text-gray-600 font-medium">C#</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+                height="40"
+                width="40"
+                alt="expressjs logo"
+              />
+
+              <span className="text-gray-600 font-medium">Express JS</span>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <PiIcon className="w-12 h-12 mb-2 text-[#777BB4]" />
-              <span className="text-gray-600 font-medium">PHP</span>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                height="40"
+                width="40"
+                alt="mongodb logo"
+              />
+              <span className="text-gray-600 font-medium">Mongo DB</span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                height="40"
+                width="40"
+                alt="mysql logo"
+              />
+              <span className="text-gray-600 font-medium">Mysql</span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                height="40"
+                width="40"
+                alt="c logo"
+              />
+              <span className="text-gray-600 font-medium">C</span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+                height="40"
+                width="40"
+                alt="firebase logo"
+              />
+              <span className="text-gray-600 font-medium">Firebase</span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src="https://skillicons.dev/icons?i=github"
+                height="40"
+                width="40"
+                alt="github logo"
+              />
+              <span className="text-gray-600 font-medium">Github</span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                height="40"
+                width="40"
+                alt="git logo"
+              />
+              <span className="text-gray-600 font-medium">Git</span>
             </div>
           </div>
         </div>
