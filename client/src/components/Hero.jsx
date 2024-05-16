@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 import IMAGES from "@/images/Images";
 import { Link } from "react-router-dom";
+import { Linkedin, Github, NotepadText } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -21,18 +22,21 @@ export default function Hero() {
           and user-friendly.
         </p>
         <div className="flex flex-wrap gap-2">
-          <Button className="bg-green-600 hover:bg-green-700">
+          <Button className="bg-green-600 hover:bg-green-700 flex items-center gap-3">
+            <Github />
             <Link to="https://github.com/Fay4z">Github</Link>
           </Button>
-          <Button className="bg-[#29ABE0] hover:bg-[#219CC0]">
+          <Button className="bg-[#29ABE0] hover:bg-[#219CC0] flex item-center gap-3">
+            <Linkedin />
             <Link to="https://www.linkedin.com/in/fayaz-ahmad-685a5b241/">
               LinkedIn
             </Link>
           </Button>
           <Button
-            className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700"
+            className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 flex items-center gap-3"
             variant="outline"
           >
+            <NotepadText />
             View CV
           </Button>
           <i className="devicon-react-original colored"></i>

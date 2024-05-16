@@ -10,13 +10,35 @@ const Experience = () => {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div className="bg-gray-100 rounded-lg p-6 dark:bg-gray-800">
+              <h3 className="text-xl font-bold mb-2">
+                Cisco Virtual Internship
+              </h3>
+              <p className="text-gray-600 mb-2 dark:text-gray-400">
+                Networking Engineer
+              </p>
+              <p className="text-gray-600 mb-4 dark:text-gray-400">
+                Apr 2022 - Sep 2022
+              </p>
+              <div className=" space-y-3">
+                <p className="text-gray-600 leading-relaxed dark:text-gray-400">
+                  In the internship, I also had the opportunity to learn
+                  different networking technologies, such as routers, switches,
+                  firewalls, and various protocols.
+                </p>
+                <p className="text-gray-600 leading-relaxed dark:text-gray-400">
+                  Working with these technologies not only expanded my technical
+                  proficiency but also gave me insight into the complexities of
+                  modern network infrastructures.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gray-100 rounded-lg p-6 dark:bg-gray-800">
               <h3 className="text-xl font-bold mb-2">Digisailor</h3>
               <p className="text-gray-600 mb-2 dark:text-gray-400">
                 React Developer Intern
               </p>
-              <p className="text-gray-600 mb-4 dark:text-gray-400">
-                Jan 2020 - Present
-              </p>
+              <p className="text-gray-600 mb-4 dark:text-gray-400">June 2023</p>
               <div className="space-y-3">
                 <p className="text-gray-600 leading-relaxed dark:text-gray-400">
                   Collaborated with cross-functional teams to deliver and
@@ -32,13 +54,14 @@ const Experience = () => {
                 </p>
               </div>
             </div>
+
             <div className="bg-gray-100 rounded-lg p-6 dark:bg-gray-800">
               <h3 className="text-xl font-bold mb-2">EY-AICTE</h3>
               <p className="text-gray-600 mb-2 dark:text-gray-400">
                 Full Stack Developer Intern
               </p>
               <p className="text-gray-600 mb-4 dark:text-gray-400">
-                Mar 2024 - Apr 2024
+                Feb 2024 - Apr 2024
               </p>
               <div className="space-y-3">
                 <p className="text-gray-600 leading-relaxed dark:text-gray-400">
@@ -51,21 +74,6 @@ const Experience = () => {
                   APIs and database architectures.
                 </p>
               </div>
-            </div>
-            <div className="bg-gray-100 rounded-lg p-6 dark:bg-gray-800">
-              <h3 className="text-xl font-bold mb-2">Stark Industries</h3>
-              <p className="text-gray-600 mb-2 dark:text-gray-400">
-                Embedded Systems Engineer
-              </p>
-              <p className="text-gray-600 mb-4 dark:text-gray-400">
-                Sep 2017 - Dec 2018
-              </p>
-              <p className="text-gray-600 leading-relaxed dark:text-gray-400">
-                Designed and developed embedded systems for industrial
-                automation using Arduino and Raspberry Pi. Collaborated with
-                cross-functional teams to integrate hardware and software
-                components.
-              </p>
             </div>
           </div>
         </div>

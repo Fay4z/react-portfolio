@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./ui/button";
 import IMAGES from "@/images/Images";
+import { Mail, Phone } from "lucide-react";
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
                 can be a powerful tool for social good, and I am always looking
                 for ways to use my skills to benefit the community.
               </p>
-              <div className="flex flex-wrap gap-2">
+              {/* <div className="flex flex-wrap gap-2">
                 <Button className="bg-[#FFDD00] text-black hover:bg-[#FCCB00]">
                   Learn More
                 </Button>
@@ -45,6 +46,28 @@ const About = () => {
                 >
                   Contact Me
                 </Button>
+              </div> */}
+              <div className="flex flex-wrap gap-10">
+                <div className="flex items-center gap-3">
+                  <Mail className="w-6 h-6 text-[#FFA500]" />
+                  <div>
+                    <h3 className="text-lg font-medium">Email</h3>
+                    <a className="text-gray-600 hover:underline" href="#">
+                      fayazjr212@gmail.com
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center gap-3">
+                    <Phone className="w-6 h-6 text-[#FFA500]" />
+                    <div>
+                      <h3 className="text-lg font-medium">Phone</h3>
+                      <a className="text-gray-600 hover:underline" href="#">
+                        +91 9791803884
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

@@ -6,6 +6,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
+import Footer from "@/components/Footer";
 
 export default function RootLayout() {
   return (
@@ -13,7 +14,7 @@ export default function RootLayout() {
       <header className="flex h-16 w-full items-center px-4 md:px-6">
         <NavLink className="flex items-center gap-2 mr-auto" href="#">
           <MountainIcon className="h-6 w-6" />
-          <span className="text-lg font-bold">Acme Inc</span>
+          <span className="text-lg font-bold">Fayaz</span>
         </NavLink>
         <nav className="hidden items-center gap-6 md:flex">
           <NavLink className="text-sm font-medium hover:underline" href="#">
@@ -80,6 +81,8 @@ export default function RootLayout() {
       <main>
         <Outlet />
       </main>
+
+      <Footer />
     </div>
   );
 }
