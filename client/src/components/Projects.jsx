@@ -127,7 +127,7 @@ const Projects = () => {
               <div className="flex gap-2">
                 <Link
                   className="bg-[#FFDD00] text-black hover:bg-[#FCCB00] px-4 py-2 rounded-md"
-                  to="#"
+                  to="https://fayaz-portfolio.vercel.app/"
                   target="_blank"
                 >
                   Live Demo
