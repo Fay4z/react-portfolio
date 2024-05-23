@@ -20,7 +20,7 @@ const DownloadButton = () => {
         className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 flex items-center gap-3"
         variant="outline"
         onClick={() => {
-          downloadCV(import.meta.env.VITE_URL);
+          downloadCV(import.meta.env.VITE_CV_URL);
         }}
       >
         <NotepadText />
