@@ -3,42 +3,77 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import { NavLink, Outlet } from "react-router-dom";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 import Footer from "@/components/Footer";
+import { Link } from "react-scroll";
+import { Github, Terminal, TerminalIcon } from "lucide-react";
 
 export default function RootLayout() {
   return (
     <div>
       <header className="flex h-16 w-full items-center px-4 md:px-6">
         <NavLink className="flex items-center gap-2 mr-auto" href="#">
-          <MountainIcon className="h-6 w-6" />
+          <TerminalIcon className="h-6 w-6" />
           <span className="text-lg font-bold">Fayaz</span>
         </NavLink>
-        <nav className="hidden items-center gap-6 md:flex">
-          <NavLink className="text-sm font-medium hover:underline" href="#">
+        <nav className="hidden items-center gap-6 md:flex cursor-pointer">
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            className="text-sm font-medium hover:underline"
+          >
             Home
-          </NavLink>
-          <NavLink className="text-sm font-medium hover:underline" href="#">
+          </Link>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            className="text-sm font-medium hover:underline"
+          >
             About
-          </NavLink>
-          <NavLink className="text-sm font-medium hover:underline" href="#">
-            Projects
-          </NavLink>
-          <NavLink className="text-sm font-medium hover:underline" href="#">
+          </Link>
+          <Link
+            to="experience"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            className="text-sm font-medium hover:underline"
+          >
+            Experience
+          </Link>
+          <Link
+            to="skills"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            className="text-sm font-medium hover:underline"
+          >
             Skills
-          </NavLink>
+          </Link>
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={1000}
+            className="text-sm font-medium hover:underline"
+          >
+            Projects
+          </Link>
         </nav>
         <div className="ml-auto flex items-center gap-2">
-          <form className="relative">
-            <SearchIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500 dark:text-gray-400" />
-            <Input
-              className="pl-8 w-[200px] md:w-[300px]"
-              placeholder="Search..."
-              type="search"
-            />
-          </form>
+          <Button>
+            <NavLink
+              to="https://github.com/Fay4z"
+              target="_blank"
+              className=" cursor-pointer"
+            >
+              <Github />
+            </NavLink>
+          </Button>
           <Sheet>
             <SheetTrigger asChild>
               <Button className="md:hidden" size="icon" variant="outline">
@@ -48,30 +83,51 @@ export default function RootLayout() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="grid gap-4 p-4">
-                <NavLink
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
                   className="text-sm font-medium hover:underline"
-                  href="#"
                 >
                   Home
-                </NavLink>
-                <NavLink
+                </Link>
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
                   className="text-sm font-medium hover:underline"
-                  href="#"
                 >
                   About
-                </NavLink>
-                <NavLink
+                </Link>
+                <Link
+                  to="experience"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
                   className="text-sm font-medium hover:underline"
-                  href="#"
                 >
-                  Services
-                </NavLink>
-                <NavLink
+                  Experience
+                </Link>
+                <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
                   className="text-sm font-medium hover:underline"
-                  href="#"
                 >
-                  Contact
-                </NavLink>
+                  Skills
+                </Link>
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  className="text-sm font-medium hover:underline"
+                >
+                  Projects
+                </Link>
               </div>
             </SheetContent>
           </Sheet>

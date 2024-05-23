@@ -6,7 +6,7 @@ import { Mail, Phone } from "lucide-react";
 const About = () => {
   return (
     <div>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
+      <section name="about" className=" py-12 md:py-16 lg:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
             <div>
@@ -14,7 +14,7 @@ const About = () => {
                 alt="About Me"
                 className="w-full h-auto rounded-lg shadow-lg"
                 height="200"
-                src={IMAGES.Placeholder}
+                src={IMAGES.orangeLake}
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
@@ -23,12 +23,19 @@ const About = () => {
               />
             </div>
             <div className="px-4 md:px-0">
-              <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
+              <h2 className="text-3xl sm:text-4xl mb-4 font-bold relative inline-block">
+                About Me
+                <span className="block w-full h-2 bg-orange-500 absolute -bottom-2 left-0 mt-1"></span>
+              </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                As a Freelance Software Engineer, I have a diverse set of skills
-                and experiences that I bring to every project. I am passionate
-                about creating innovative and user-friendly solutions that solve
-                real-world problems.
+                I am a versatile and driven professional seeking new
+                opportunities to contribute my expertise and make a positive
+                difference. I look forward to embracing fresh challenges and
+                collaborating with like-minded individuals in a stimulating
+                environment that values creativity and continuous growth I have
+                a diverse set of skills and experiences that I bring to every
+                project. I am passionate about creating innovative and
+                user-friendly solutions that solve real-world problems.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 In addition to my technical expertise, I am also committed to
@@ -36,20 +43,9 @@ const About = () => {
                 can be a powerful tool for social good, and I am always looking
                 for ways to use my skills to benefit the community.
               </p>
-              {/* <div className="flex flex-wrap gap-2">
-                <Button className="bg-[#FFDD00] text-black hover:bg-[#FCCB00]">
-                  Learn More
-                </Button>
-                <Button
-                  className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700"
-                  variant="outline"
-                >
-                  Contact Me
-                </Button>
-              </div> */}
               <div className="flex flex-wrap gap-10">
                 <div className="flex items-center gap-3">
-                  <Mail className="w-6 h-6 text-[#FFA500]" />
+                  <Mail className="w-6 h-6 text-orange-500" />
                   <div>
                     <h3 className="text-lg font-medium">Email</h3>
                     <a className="text-gray-600 hover:underline" href="#">
@@ -59,7 +55,7 @@ const About = () => {
                 </div>
                 <div>
                   <div className="flex items-center gap-3">
-                    <Phone className="w-6 h-6 text-[#FFA500]" />
+                    <Phone className="w-6 h-6 text-orange-500" />
                     <div>
                       <h3 className="text-lg font-medium">Phone</h3>
                       <a className="text-gray-600 hover:underline" href="#">

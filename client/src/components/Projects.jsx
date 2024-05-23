@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import IMAGES from "@/images/Images";
-import ProjectsData from "@/Data";
 
 const Projects = () => {
   return (
-    <section className="bg-white py-12 md:py-16 lg:py-20">
+    <section name="projects" className=" py-12 md:py-16 lg:py-20">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8">My Projects</h2>
+        <h2 className="text-3xl sm:text-4xl mb-8 font-bold relative inline-block">
+          Projects
+          <span className="block w-full h-2 bg-orange-500 absolute -bottom-2 left-0 mt-1"></span>
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           <Card>
             <img
@@ -42,12 +44,14 @@ const Projects = () => {
                 <Link
                   className="bg-[#FFDD00] text-black hover:bg-[#FCCB00] px-4 py-2 rounded-md"
                   to="https://taskpro-manager.vercel.app/"
+                  target="_blank"
                 >
                   Live Demo
                 </Link>
                 <Link
                   className="border border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 px-4 py-2 rounded-md"
                   to="https://github.com/Fay4z/TaskPro-Manager"
+                  target="_blank"
                 >
                   GitHub
                 </Link>
@@ -80,15 +84,16 @@ const Projects = () => {
                 <Badge>Mongo DB</Badge>
               </div>
               <div className="flex gap-2">
-                <Link
+                {/* <Link
                   className="bg-[#FFDD00] text-black hover:bg-[#FCCB00] px-4 py-2 rounded-md"
                   to="#"
                 >
                   Live Demo
-                </Link>
+                </Link> */}
                 <Link
                   className="border border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 px-4 py-2 rounded-md"
                   to="https://github.com/Fay4z/QR-generator"
+                  target="_blank"
                 >
                   GitHub
                 </Link>
@@ -123,12 +128,14 @@ const Projects = () => {
                 <Link
                   className="bg-[#FFDD00] text-black hover:bg-[#FCCB00] px-4 py-2 rounded-md"
                   to="#"
+                  target="_blank"
                 >
                   Live Demo
                 </Link>
                 <Link
                   className="border border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 px-4 py-2 rounded-md"
                   to="https://github.com/Fay4z/react-portfolio"
+                  target="_blank"
                 >
                   GitHub
                 </Link>

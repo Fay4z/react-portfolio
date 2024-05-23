@@ -3,10 +3,11 @@ import React from "react";
 const Skills = () => {
   return (
     <div>
-      <section className="bg-white py-12 md:py-16 lg:py-20">
+      <section name="skills" className=" py-12 md:py-16 lg:py-20">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8 pb-8">
-            My Skills
+          <h2 className="text-3xl sm:text-4xl mb-12 font-bold relative inline-block">
+            Skills
+            <span className="block w-full h-2 bg-orange-500 absolute -bottom-2 left-0 mt-1"></span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
             <div className="flex flex-col items-center justify-center">
