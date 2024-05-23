@@ -17,7 +17,7 @@ export default function Hero() {
       className="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 py-12 md:items-center md:justify-between lg:px-40 lg:my-5"
     >
       <div className="col-span-2 space-y-6">
-        <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
+        <h1 className="text-4xl sm:text-5xl font-bold leading-tight ">
           I'm Fayaz Ahmad
         </h1>
         <p className="text-gray-600 md:text-2xl md:leading-normal">
