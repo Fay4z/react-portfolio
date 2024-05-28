@@ -113,7 +113,7 @@ const Projects = () => {
               width="300"
             />
             <CardContent className="p-4 border-t-2 border-gray-200">
-              <h3 className="text-xl font-bold mb-2">Protfolio</h3>
+              <h3 className="text-xl font-bold mb-2">Portfolio</h3>
               <p className="text-gray-600 mb-4">
                 The Portfolio project serves as a digital showcase, allowing me
                 to exhibit my skills, achievements, and projects to potential
