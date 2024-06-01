@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
         <p className="text-gray-600 md:text-2xl md:leading-normal">
           A <span className=" text-orange-500">Full Stack Developer</span> who
-          is passionate about learnig new things and making the web more
+          is passionate about learning new things and making the web more
           accessible and user-friendly.
         </p>
         <div className="flex flex-wrap gap-2">
