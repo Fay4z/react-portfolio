@@ -63,7 +63,7 @@ const Projects = () => {
               alt="QR Generator"
               className="w-full h-auto rounded-t-lg"
               height="200"
-              src={IMAGES.qrGenerator}
+              src={IMAGES.fileStorage}
               style={{
                 aspectRatio: "300/200",
                 objectFit: "cover",
@@ -71,17 +71,16 @@ const Projects = () => {
               width="300"
             />
             <CardContent className="p-4  border-t-2 border-gray-200">
-              <h3 className="text-xl font-bold mb-2">QR Generator</h3>
+              <h3 className="text-xl font-bold mb-2">File Storage Web App</h3>
               <p className="text-gray-600 mb-4">
-                The QR Generator project offers a simple yet powerful tool to
-                create customized QR codes, enabling seamless information
-                sharing and digital interaction.
+              A web-based File Storage System that supports a variety of file formats
+including images, pdf, csv and has robust file upload and deletion features.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <Badge>Ejs</Badge>
-                <Badge>Node JS</Badge>
-                <Badge>Express JS</Badge>
-                <Badge>Mongo DB</Badge>
+                <Badge>Next JS</Badge>
+                <Badge>Tailwind CSS</Badge>
+                <Badge>Convex</Badge>
+                <Badge>Clerk</Badge>
               </div>
               <div className="flex gap-2">
                 {/* <Link
