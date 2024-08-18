@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { NotepadText } from "lucide-react";
 
 const DownloadButton = () => {
-  console.log(import.meta.env.VITE_URL);
+  // console.log(import.meta.env.VITE_URL);
 
   const downloadCV = (url) => {
     //download the cv
@@ -20,7 +20,7 @@ const DownloadButton = () => {
         className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 flex items-center gap-3"
         variant="outline"
         onClick={() => {
-          downloadCV(import.meta.env.VITE_CV_URL);
+          downloadCV("https://fayaz-portfolio.vercel.app//Fayaz-Ahmad.pdf");
         }}
       >
         <NotepadText />
