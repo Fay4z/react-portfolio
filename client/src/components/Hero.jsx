@@ -3,6 +3,8 @@
  * @see https://v0.dev/t/01vLn25ZaZQ
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+
+import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 import IMAGES from "@/images/Images";
@@ -18,7 +20,15 @@ export default function Hero() {
     >
       <div className="col-span-2 space-y-6">
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight ">
-          I'm Fayaz Ahmad
+          <TypeAnimation
+            sequence={[
+              "I'm Fayaz Ahmad",
+              1000, // Waits 1s
+            ]}
+            wrapper="span"
+            speed={10}
+            repeat={Infinity}
+          />
         </h1>
         <p className="text-gray-600 md:text-2xl md:leading-normal">
           A <span className=" text-orange-500">Full Stack Developer</span> who

@@ -27,6 +27,7 @@
     "react-motion-animate": "^1.0.6",
     "react-router-dom": "^6.23.0",
     "react-scroll": "^1.9.0",
+    "react-type-animation": "^3.2.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },

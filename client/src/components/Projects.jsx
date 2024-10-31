@@ -73,8 +73,9 @@ const Projects = () => {
             <CardContent className="p-4  border-t-2 border-gray-200">
               <h3 className="text-xl font-bold mb-2">File Storage Web App</h3>
               <p className="text-gray-600 mb-4">
-              A web-based File Storage System that supports a variety of file formats
-including images, pdf, csv and has robust file upload and deletion features.
+                A web-based File Storage System that supports a variety of file
+                formats including images, pdf, csv and has robust file upload
+                and deletion features.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <Badge>Next JS</Badge>
@@ -91,7 +92,7 @@ including images, pdf, csv and has robust file upload and deletion features.
                 </Link> */}
                 <Link
                   className="border border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 px-4 py-2 rounded-md"
-                  to="https://github.com/Fay4z/QR-generator"
+                  to="https://github.com/Fay4z/file-drive"
                   target="_blank"
                 >
                   GitHub
