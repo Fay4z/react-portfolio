@@ -1,3 +1,3 @@
 # Protfolio Website
 
-This is my Protfolio Website and you can watch it live on [here](fayaz-portfolio.vercel.app/). This website is done by using React, Tailwind CSS and hosted using Vercel.
+This is my Protfolio Website and you can check on the about section for the actual portfolio website link. This website is done by using React, Tailwind CSS and hosted using Vercel.
