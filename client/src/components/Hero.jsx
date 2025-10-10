@@ -10,7 +10,7 @@ import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
 import IMAGES from "@/images/Images";
 import { Link } from "react-router-dom";
 import { Linkedin, Github, NotepadText } from "lucide-react";
-import DownloadButton from "./DownloadCV";
+import OpencvButton from "./OpenCV";
 
 export default function Hero() {
   return (
@@ -51,7 +51,7 @@ export default function Hero() {
               LinkedIn
             </Link>
           </Button>
-          <DownloadButton />
+          <OpencvButton />
           <i className="devicon-react-original colored"></i>
         </div>
       </div>
