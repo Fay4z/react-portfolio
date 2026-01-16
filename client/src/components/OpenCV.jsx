@@ -13,7 +13,7 @@ const OpencvButton = () => {
         className="border-gray-600 text-gray-600 hover:border-gray-700 hover:text-gray-700 flex items-center gap-3"
         variant="outline"
         onClick={() => {
-          openCV("https://fayaz-portfolio.vercel.app//Fayaz-Resume.pdf");
+          openCV("https://fayaz-portfolio.vercel.app//Fayaz_Resume.pdf");
         }}
       >
         <NotepadText />
