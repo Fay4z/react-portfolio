@@ -1,9 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/01vLn25ZaZQ
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
 import { AvatarImage, Avatar, AvatarFallback } from "@/components/ui/avatar";
@@ -21,10 +15,7 @@ export default function Hero() {
       <div className="col-span-2 space-y-6">
         <h1 className="text-4xl sm:text-5xl font-bold leading-tight ">
           <TypeAnimation
-            sequence={[
-              "I'm Fayaz Ahmad",
-              1000, // Waits 1s
-            ]}
+            sequence={["I'm Fayaz Ahmad", 1000]}
             wrapper="span"
             speed={10}
             repeat={Infinity}
@@ -36,18 +27,25 @@ export default function Hero() {
           accessible and user-friendly.
         </p>
         <div className="flex flex-wrap gap-2">
-          <Button className="bg-green-600 hover:bg-green-700 flex items-center gap-3">
-            <Github />
+          <Button
+            asChild
+            className="bg-green-600 hover:bg-green-700 flex items-center gap-3"
+          >
             <Link to="https://github.com/Fay4z" target="_blank">
+              <Github />
               Github
             </Link>
           </Button>
-          <Button className="bg-[#29ABE0] hover:bg-[#219CC0] flex item-center gap-3">
-            <Linkedin />
+
+          <Button
+            asChild
+            className="bg-[#29ABE0] hover:bg-[#219CC0] flex item-center gap-3"
+          >
             <Link
-              to="https://www.linkedin.com/in/fayaz-ahmad-685a5b241/"
+              to="https://www.linkedin.com/in/fayaz-ahmad-sa/"
               target="_blank"
             >
+              <Linkedin />
               LinkedIn
             </Link>
           </Button>
@@ -58,7 +56,7 @@ export default function Hero() {
       <div className="mt-8 flex justify-center md:mt-0 md:flex-none">
         <div className="inline-flex items-center justify-center rounded-full border-8 border-orange-500 p-2">
           <Avatar className="h-40 w-40">
-            <AvatarImage alt="Fayaz Ahmad" src={IMAGES.Profile} />
+            <AvatarImage alt="Fayaz Ahmad" src={IMAGES.profile} />
             <AvatarFallback>Fayaz Ahmad Profile</AvatarFallback>
           </Avatar>
         </div>

@@ -4,14 +4,7 @@ import { Button } from "./ui/button";
 import { NotepadText } from "lucide-react";
 
 const OpencvButton = () => {
-  // console.log(import.meta.env.VITE_URL);
-
   const openCV = (url) => {
-    //download the cv
-    // const link = document.createElement("a");
-    // link.href = url;
-    // link.download = "Fayaz_CV.pdf";
-    // link.click();
     window.open(url, "_blank");
   };
   return (
