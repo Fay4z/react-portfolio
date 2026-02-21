@@ -20,7 +20,7 @@ export const projectsData = [
       "A web-based File Storage System that supports a variety of file formats including images, pdf, csv and has robust file upload and deletion features.",
     image: IMAGES.fileStorage,
     githubLink: "https://github.com/Fay4z/file-drive",
-    liveLink: "",
+    liveLink: "https://filedrivestorage.vercel.app/",
     techStack: ["Next JS", "Tailwind CSS", "Convex", "Clerk"],
   },
   {
