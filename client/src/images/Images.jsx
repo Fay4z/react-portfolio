@@ -6,6 +6,7 @@ const IMAGES = {
   orangeLake: new URL("../assets/orangeLake.png", import.meta.url).href,
   defectDetection: new URL("../assets/defectDetection.jpg", import.meta.url)
     .href,
+  paymentSystem: new URL("../assets/paymentSystem.jpg", import.meta.url).href,
 };
 
 export default IMAGES;

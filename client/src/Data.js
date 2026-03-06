@@ -36,6 +36,17 @@ export const projectsData = [
   },
   {
     id: 4,
+    title: "EduPay - Web-Based Payment Management System",
+    alt: "Web-Based Payment Management System",
+    description:
+      "EduPay is a web-based system designed to manage student fee payments in educational institutions. It allows administrators to add students and track payment details, while students can view their fee information through their dashboard. The system helps reduce manual work and improves the organization of fee management.",
+    image: IMAGES.paymentSystem,
+    githubLink: "https://github.com/Fay4z/EduPay",
+    liveLink: "",
+    techStack: ["React JS", "Tailwind CSS", "Node JS", "Express JS", "MongoDB"],
+  },
+  {
+    id: 5,
     title: "Smart Defect Detection System",
     alt: "Smart Defect Detection System",
     description:
